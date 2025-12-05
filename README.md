@@ -7,12 +7,6 @@ Team: Aqsa Taqdees (MSDS23012), Ghulam Ruqia (MSDS23013), Yusra Qayyum (MSDS2503
 
 We classify e-commerce product reviews into **Happy / Ok / Unhappy** using a TF-IDF + linear-model stack (SVM + SGD) with stratified train/test split, reusable artifacts for inference, and ready-made visualizations for reporting.
 
-**Hybrid Score Formula**
-
-<p align="center">
-<img src="https://latex.codecogs.com/png.latex?\color{white}s_{hybrid}(d)=w_{tfidf}\cdot%20s_{tfidf}(d)+w_{bm25}\cdot%20s_{bm25}(d)+w_{embed}\cdot%20s_{embed}(d)" />
-</p>
-
 *(We currently operationalize the TF-IDF component; BM25 and embedding scores can be added as weighted signals for future ensemble experiments.)*
 
 ## Repository Map
